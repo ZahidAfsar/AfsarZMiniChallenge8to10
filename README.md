@@ -12,5 +12,6 @@ Medium Mode 1-50
 Hard Mode 1-100
 3. Restaurant Picker: create 1 endpoint that takes an input and generates a Randomly Generated Restaurant based on the category chosen. 10 Restaurants per category.
 
-// Peer Review by :
-// Peer Comment :
+// Peer Review by : Kyle Ma 
+// Peer Comment : Assignment is complete and code is organized nicely. All the validation is done correctly. I like that there is an error code for GuessIt if the input is out of bounds. The .toLower is is nice touch for the resturant picker as well. 
+One thing that i noticed that could be changed is the input for resturant picker, "fast food". The space inbetween makes it strange to input into postman since URL's don't have them. 
