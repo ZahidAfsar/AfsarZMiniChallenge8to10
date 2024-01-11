@@ -13,7 +13,7 @@ namespace AfsarZMiniChallenge8to10.Services.Restaurant;
     {
         int randomIndex = randomNumber.Next(0, 10);
         string userInput = food.ToLower();
-        if(userInput == "fast food" || userInput == "pizza" || userInput == "mexican"){
+        if(userInput == "fastfood" || userInput == "pizza" || userInput == "mexican"){
             if(userInput == "fast food"){
                 return fastFood[randomIndex];
             } else if (userInput == "pizza"){
@@ -22,7 +22,7 @@ namespace AfsarZMiniChallenge8to10.Services.Restaurant;
                 return mexican[randomIndex];
             }
         }else {
-            return "Invalid input, please input one of these options: 'Fast Food' | 'Pizza' | 'Mexican'";
+            return "Invalid input, please input one of these options: 'fastFood' | 'Pizza' | 'Mexican'";
         }
         
     }
