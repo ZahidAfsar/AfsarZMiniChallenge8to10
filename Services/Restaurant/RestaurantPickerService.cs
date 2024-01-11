@@ -14,7 +14,7 @@ namespace AfsarZMiniChallenge8to10.Services.Restaurant;
         int randomIndex = randomNumber.Next(0, 10);
         string userInput = food.ToLower();
         if(userInput == "fastfood" || userInput == "pizza" || userInput == "mexican"){
-            if(userInput == "fast food"){
+            if(userInput == "fastfood"){
                 return fastFood[randomIndex];
             } else if (userInput == "pizza"){
                 return pizza[randomIndex];
